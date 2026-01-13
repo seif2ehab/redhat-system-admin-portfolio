@@ -1,1 +1,8 @@
+groupadd it_admins
+useradd ahmed
+useradd mohamed
+usermod -aG it_admins ahmed
+usermod -aG it_admins mohamed
+passwd ahmed
+chage -d 0 ahmed
 
